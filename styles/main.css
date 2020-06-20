@@ -1,0 +1,154 @@
+* {
+  width: 960px 100% max-content;
+
+  box-sizing: border-box;
+
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+.intro {
+  box-sizing: border-box;
+  width: 960px;
+  height: 525px;
+  margin: auto;
+}
+.about,
+.skills,
+.portfolio,
+.clients,
+.contact {
+  box-sizing: border-box;
+  width: 960px;
+  height: 424px;
+  margin: auto;
+}
+
+.banner {
+  width: 960px 100%;
+  height: 525px;
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 64px;
+  position: absolute;
+  top: 56px;
+  left: 314.922px;
+  z-index: 999;
+}
+
+.hello {
+  color: white;
+  font-size: 36px;
+  text-align: initial;
+  background-color: rgba(114, 153, 254, 0.5);
+  border-radius: 10px;
+  padding: 6px;
+  width: 365px;
+  height: 117px;
+  position: absolute;
+  top: 301px;
+  left: 100px;
+  z-index: 999;
+}
+.about {
+  position: relative;
+  background-color: #7299fe;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  padding: 27px;
+}
+.aboutme {
+  color: #1d06a7;
+}
+p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #f8f8f8;
+  line-height: 24px;
+  padding: 0px 40px 10px 40px;
+}
+.seecv {
+  background-color: #d16fff;
+  color: white;
+  font-size: 22px;
+  padding: 18px 57px;
+  border-radius: 20px;
+  margin: 40px;
+  box-shadow: 0px 5px 5px rgba(121, 118, 118, 0.637);
+  border: none;
+}
+/*MIS SKILLS*/
+.skills {
+  position: relative;
+  background-color: #9122ff;
+}
+.myskills {
+  color: #26cc4b;
+}
+h4 {
+  font-size: 18px;
+  color: white;
+}
+.html,
+.js,
+.fbox,
+.css,
+.vue,
+.cssgrid {
+  margin: 30px;
+  height: 70px;
+  width: 400px;
+}
+
+/*PORTAFOLIO*/
+.portfolio {
+  position: relative;
+  background-color: #ffd233;
+}
+.portfolio h2 {
+  color: #00ad84;
+  padding: 50px;
+}
+.portfolio figure{
+    margin: 48px;
+    display: inline;
+}
+
+/*CLIENTES*/
+.clients {
+  position: relative;
+  background-color: #3f4e62;
+  width: 960px;
+  height: 258px;
+}
+.clients h2 {
+  color: #adff28;
+  padding: 40px;
+}
+.clients figure{
+    
+    margin: 24px;
+    display: inline;
+    
+}
+
+/*CONTACTO*/
+.contact {
+  position: relative;
+  background-color: #1687a0;
+  width: 960px;
+  height: 578px;
+}
+.contact h2 {
+  color: #ff1b1b;
+}
