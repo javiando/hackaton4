@@ -110,3 +110,42 @@ html{
   
 
 }
+/*myportfolio*/
+
+.portfolio{
+  background-color: #FFD233;
+  padding: 40px 170px 90px;
+}
+.portfolio h2{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;  
+  color:#00AD84;
+}
+
+.portfoliowrapper > figure{
+  display: inline-block;
+  padding: 6px 12px;
+  width: 20%;
+}
+/*clientes*/
+
+.clients{
+  background-color:#3F4E62;
+  padding: 40px 70px 90px;
+}
+.clients h2{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;  
+  color:#ADFF28;
+
+}
+
+.clientswrapper > figure{
+  display: inline-block;
+  padding: 6px;
+}
+.clientswrapper figure:nth-child(3){
+  vertical-align: super;
+}
