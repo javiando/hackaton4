@@ -12,7 +12,7 @@
       <!--intro!-->
       <section class="intro">
         <h1>Pachaqtec</h1>
-        <h2 class="hello">Hola, mi nombre es Lucio Javier Chuchon Solano</h2>
+        <p class="hello">Hola, mi nombre es Lucio Javier Chuchon Solano</p>
         <figure class="banner">
           <img src="./images/banner.png" alt="foto banner" />
         </figure>
@@ -37,9 +37,9 @@
           possimus esse consequatur molestias cum quibusdam dolore dolorum
           nesciunt.
         </p>
-        <button class="seecv">Ver CV</button>
+        <button>Ver CV</button>
       </section>
-      <!--skills-->
+      <!--misskills-->
       <section class="skills">
         <h2 class="myskills">Mis Skills</h2>
         <div class="wrapper">
@@ -81,7 +81,7 @@
           </div>
         </div>
       </section>
-      <!--portafolio-->
+      <!--miportafolio-->
       <section class="portfolio">
         <h2>Portafolio</h2>
         <div class="portfoliowrapper">
@@ -132,6 +132,7 @@
       <!--contacto-->
       <section class="contact">
         <h2>Contacto</h2>
+        <div class="contactwrapper">
         <form method="GET">
           <label for="name"></label>
           <input
@@ -143,7 +144,7 @@
             minlength="4"
             maxlength="12"
             required
-          /><br />
+          />
           <label for="lname"></label>
           <input
             type="text"
@@ -154,7 +155,7 @@
             minlength="4"
             maxlength="20"
             required
-          /><br />
+          />
           <label for="email"></label>
           <input
             type="email"
@@ -162,15 +163,17 @@
             name="email"
             placeholder="Email"
             required
-          /><br />
+          />
           <label for="phnumber"></label>
           <input
             type="text"
             id="phnumber"
             name="phnumber"
             placeholder="Teléfono"
+            pattern="[0-9]{9}"
             required
-          /><br />
+          />
+          <br>
           <label for="comments"></label>
           <textarea
             name="comments"
@@ -180,8 +183,9 @@
             placeholder="Descripcion"
             required
           ></textarea>
-          <br />
-          <button>Enviar</button>
+          <br>
+          <button>ENVIAR</button>
+        </div>
         </form>
       </section>
     </main>

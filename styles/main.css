@@ -1,36 +1,47 @@
-main{
+/*globals*/
+main {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
   max-width: 960px;
   width: 100%;
   margin: auto;
 }
 
-html{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+button {
+  border: none;
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
 }
 /*intro*/
-.intro{
- position: relative;
+.intro {
+  position: relative;
   display: block;
 }
-.intro img{
+.intro img {
   display: block;
+  max-width: 960px;
+  width: 100%;
 }
-.intro h1{
+.intro h1 {
   position: absolute;
   top: 48px;
   left: 353.92px;
   margin: 0;
-  color: white;
   font-size: 50px;
-  
 }
-.intro h2{
+.intro p {
   position: absolute;
-  font-size: 25px;
-  color: white;
   padding: 16px;
   top: 300px;
   left: 50px;
@@ -38,114 +49,112 @@ html{
   background-color: rgba(80, 122, 212, 0.452);
   border-radius: 5px;
 }
+
 /*sobremi*/
-.about{
-  background-color: #7299FE;
+.about {
   padding: 40px;
-  color: white;
+  background-color: #7299fe;
 }
-.about h2{
-  text-align: center;
-  padding: 0px 0px 20px 0px;
-  font-size: 36px;
+.about h2 {
   color: rgb(10, 10, 117);
 }
-.about p{
+.about p {
   font-size: 14px;
   line-height: 24px;
   font-weight: initial;
-  
 }
-.about button{
+.about button {
   margin: 20px 0px 35px 0px;
   padding: 19px 58px;
   border-radius: 20px;
   background-color: lightcoral;
-  color: inherit;
-  font-size: 22px;
-  font-weight: inherit;
-  border: none;
   box-shadow: 0px 1px 10px rgb(83, 82, 82);
 }
-/*myskills*/
-.skills{
-  background-color: #9122FF;
+
+/*misskills*/
+.skills {
+  background-color: #9122ff;
   padding: 40px 50px;
-  color: white;
-
 }
-.skills h2{
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 36px;
-  color:#26CC4B;
-
-
+.skills h2 {
+  color: #26cc4b;
 }
-.skills h4{
+.skills h4 {
   font-weight: initial;
-  
 }
-.skills .bluerectangle{
+.skills .bluerectangle {
   width: 50%;
   height: 20px;
-  background-color: #57EFF9;
+  background-color: #57eff9;
   border-radius: 10px;
 }
-.skills .whiterectangle{
+.skills .whiterectangle {
+  margin-top: 15px;
+  margin-bottom: 25px;
   width: 100%;
   height: 20px;
   background-color: white;
   border-radius: 10px;
-  margin-top: 15px;
-  margin-bottom: 25px;
 }
-
-.skills .wrapper > div{
+.skills .wrapper > div {
   width: 44%;
-  display: inline-block;
   padding: 5px 20px;
-
-  
-  
-
+  display: inline-block;
 }
-/*myportfolio*/
 
-.portfolio{
-  background-color: #FFD233;
+/*miportafolio*/
+.portfolio {
+  background-color: #ffd233;
   padding: 40px 170px 90px;
 }
-.portfolio h2{
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 36px;  
-  color:#00AD84;
+.portfolio h2 {
+  color: #00ad84;
 }
-
-.portfoliowrapper > figure{
+.portfoliowrapper > figure {
   display: inline-block;
   padding: 6px 12px;
   width: 20%;
 }
-/*clientes*/
 
-.clients{
-  background-color:#3F4E62;
+/*clientes*/
+.clients {
+  background-color: #3f4e62;
   padding: 40px 70px 90px;
 }
-.clients h2{
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 36px;  
-  color:#ADFF28;
-
+.clients h2 {
+  color: #adff28;
 }
-
-.clientswrapper > figure{
+.clientswrapper > figure {
   display: inline-block;
-  padding: 6px;
+  padding: 5px;
 }
-.clientswrapper figure:nth-child(3){
+.clientswrapper figure:nth-child(3) {
   vertical-align: super;
+}
+
+/*contacto*/
+.contact {
+  background-color: #1687a0;
+  padding: 40px 100px 90px;
+}
+.contact h2 {
+  color: #ff1b1b;
+}
+.contactwrapper input {
+  margin: 7px 14px;
+  padding: 20px;
+  width: 40%;
+}
+textarea {
+  margin: 10px auto;
+  padding: 20px;
+  width: 91%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+button {
+  margin: 0 auto;
+  padding: 17px 50px;
+  display: block;
+  background-color: #233451;
 }
